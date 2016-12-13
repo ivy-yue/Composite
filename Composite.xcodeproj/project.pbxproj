@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		89B2CB5A1DDC522100F4F130 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89B2CB591DDC522100F4F130 /* main.cpp */; };
+		892336F51DFED3EC0005F116 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 892336F41DFED3EC0005F116 /* main.cpp */; };
+		892336F81DFED5110005F116 /* Composite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 892336F61DFED5110005F116 /* Composite.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +24,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		892336F41DFED3EC0005F116 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		892336F61DFED5110005F116 /* Composite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Composite.cpp; sourceTree = SOURCE_ROOT; };
+		892336F71DFED5110005F116 /* Composite.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Composite.hpp; sourceTree = SOURCE_ROOT; };
 		89B2CB561DDC522100F4F130 /* Composite */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Composite; sourceTree = BUILT_PRODUCTS_DIR; };
-		89B2CB591DDC522100F4F130 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,9 @@
 		89B2CB581DDC522100F4F130 /* Composite */ = {
 			isa = PBXGroup;
 			children = (
-				89B2CB591DDC522100F4F130 /* main.cpp */,
+				892336F61DFED5110005F116 /* Composite.cpp */,
+				892336F71DFED5110005F116 /* Composite.hpp */,
+				892336F41DFED3EC0005F116 /* main.cpp */,
 			);
 			path = Composite;
 			sourceTree = "<group>";
@@ -119,7 +124,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89B2CB5A1DDC522100F4F130 /* main.cpp in Sources */,
+				892336F51DFED3EC0005F116 /* main.cpp in Sources */,
+				892336F81DFED5110005F116 /* Composite.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +252,7 @@
 				89B2CB5F1DDC522100F4F130 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
