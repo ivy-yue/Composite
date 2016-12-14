@@ -14,7 +14,7 @@ using namespace std;
 
 int main()
 {
-    //
+    
     ConcreteComposite folder1("Design Pattern");
     AbstractFileCpp file1_1("Observer");
     AbstractFileHpp file1_2("Undo/Redo");

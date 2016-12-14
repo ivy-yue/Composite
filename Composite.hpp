@@ -27,7 +27,6 @@ public:
     virtual void detach(Composite* file_name){}
     virtual void display(string str){}
     
-
     
 protected:
     char* mName;
